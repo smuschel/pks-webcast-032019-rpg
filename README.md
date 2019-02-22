@@ -5,7 +5,7 @@ Sourcen für den PKS Webcast am 19.03.2019 - RPG
 Das Programm erwartet eine Datenbanktabelle in der Lib-Liste (Valence Environment) mit folgender Struktur:
 
   ```sql
-  create table dplanteam (
+  create table lib.dplanteam (
     name          varchar(32), 
     description   varchar(64), 
     state         varchar(8), 
@@ -17,8 +17,8 @@ Das Programm erwartet eine Datenbanktabelle in der Lib-Liste (Valence Environmen
 Erstellen mit folgendem Kommando
 
 ```
-CRTSQLRPGI OBJ(VVYOUTUB52/DPLAN85) 
-  SRCFILE(VVYOUTUB52/QRPGLESRC) 
+CRTSQLRPGI OBJ(LIB/DPLAN85) 
+  SRCFILE(LIB/QRPGLESRC) 
   SRCMBR(DPLAN85) 
   OPTION(*EVENTF) 
   RPGPPOPT(*LVL2)
