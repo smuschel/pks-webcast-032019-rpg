@@ -10,9 +10,20 @@ Das Programm erwartet eine Datenbanktabelle in der Lib-Liste (Valence Environmen
     description   varchar(64), 
     state         varchar(8), 
     uuid          varchar(4)
-  )                               
+  ) 
+  ```
                                                                       
 ## Programm
 Erstellen mit folgendem Kommando
-  '''
-  CRTSQLRPGI OBJ(VVYOUTUB52/DPLAN85) SRCFILE(VVYOUTUB52/QRPGLESRC) SRCMBR(DPLAN85) OPTION(*EVENTF) RPGPPOPT(*LVL2) REPLACE(*YES) DBGVIEW(*SOURCE)
+
+```
+CRTSQLRPGI OBJ(VVYOUTUB52/DPLAN85) 
+  SRCFILE(VVYOUTUB52/QRPGLESRC) 
+  SRCMBR(DPLAN85) 
+  OPTION(*EVENTF) 
+  RPGPPOPT(*LVL2)
+  REPLACE(*YES) 
+  DBGVIEW(*SOURCE)
+```
+
+Wichtig ist die Angabe von RPGPPOPT(*LVL2)
