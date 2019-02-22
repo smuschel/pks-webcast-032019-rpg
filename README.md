@@ -9,5 +9,6 @@ Das Programm erwartet eine Datenbanktabelle in der Lib-Liste (Valence Environmen
     name          varchar(32), 
     description   varchar(64), 
     state         varchar(8), 
-    uuid          varchar(4))                               
+    uuid          varchar(4)
+  )                               
                                                                       
