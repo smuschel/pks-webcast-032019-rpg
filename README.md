@@ -5,7 +5,7 @@ Sourcen für den PKS Webcast am 19.03.2019 - RPG
 Das Programm erwartet eine Datenbanktabelle in der Lib-Liste (Valence Environment) mit folgender Struktur:
 
   ```sql
-  create table zsim.dplanteam (
+  create table dplanteam (
     name          varchar(32), 
     description   varchar(64), 
     state         varchar(8), 
