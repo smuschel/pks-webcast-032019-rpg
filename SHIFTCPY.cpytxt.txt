@@ -1,0 +1,7 @@
+**free
+
+dcl-pr aktualisiereSchichtZuweisung;
+        uuid      char(4);
+        shift     char(5);
+        day       date;
+end-pr; 
